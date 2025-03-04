@@ -50,6 +50,3 @@ The app will be available at http://localhost:8501 in your web browser.
 - Large images will be automatically resized for processing
 - Supported formats: PNG, JPG, JPEG
 
-## License
-
-MIT
