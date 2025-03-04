@@ -10,7 +10,7 @@ import time
 
 st.set_page_config(layout="wide", page_title="Image Background Remover")
 
-st.write("###BackDropEase")
+st.write("##BackDropEase")
 st.write("## Remove background from your image")
 st.write(
     "Try uploading an image to watch the background magically removed. Full quality images can be downloaded from the sidebar. :grin:"
@@ -138,7 +138,7 @@ if my_upload is not None:
         fix_image(upload=my_upload)
 else:
     # Try default images in order of preference
-    default_images = ["./saksham.jpg", "./pratham.png"]
+    default_images = ["./saksham.jpg", "./pratham.jpg"]
     for img_path in default_images:
         if os.path.exists(img_path):
             fix_image(img_path)
